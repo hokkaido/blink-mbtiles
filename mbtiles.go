@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/url"
 	"os"
-	_ "third_party/github.com/mattn/go-sqlite3"
+	_ "github.com/hokkaido/blink-mbtiles/third_party/github.com/mattn/go-sqlite3"
 )
 
 func init() {
